@@ -33,6 +33,6 @@ export function reducer(state, action) {
                 nextPage: state.nextPage + 1,
             }
         case types.FAILURE:
-            returng { ...state, loading: false, error: true }
+            return { ...state, loading: false, error: true }
     }
 }

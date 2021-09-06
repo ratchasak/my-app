@@ -9,6 +9,3 @@ export async function getList(page = 1) {
 export function formatPhotoUri(id, width, height) {
     return `https://picsum.photos/id/${id}/${Math.floor(width)}/${Math.floor(height)}`   
 }
-
-
-ddd
